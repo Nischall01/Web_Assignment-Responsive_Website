@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+* {
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  background: black;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.item {
+  border: 1px solid #000;
+  padding: 0cap 3cap 3cap 3cap;
+  margin: 1cap;
+  flex-grow: 1;
+  border-radius: 10px;
+}
+
+.item:hover .section_title {
+  color: white;
+}
+
+.div1:hover #uno {
+  color: white;
+  background: #4b8f5a;
+}
+
+.div2:hover #dos {
+  color: white;
+  background: #2a73b9;
+}
+
+.div3:hover #tres {
+  color: white;
+  background: #a67c52;
+}
+
+.div1 {
+  background: #a9cba6;
+}
+
+.div2 {
+  background: #7dafd3;
+}
+
+.div3 {
+  background: #d2b48c;
+}
+
+/* mobile */
+@media (max-width: 767px) {
+  .item {
+    flex-basis: 100%;
+  }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  .item {
+    flex-basis: calc(33.33% - 20px);
+  }
+  .item:last-child {
+    flex-basis: 100%;
+  }
+}
+
+/* desktop/laptop */
+@media (min-width: 992px) {
+  .item {
+    flex-basis: 20%;
+  }
+}
+
+.section_title {
+  padding: 1cap;
+  text-align: right;
+}
+
+#uno {
+  padding: 1cap;
+  border: 1px black solid;
+}
+
+#dos {
+  padding: 1cap;
+  border: 1px black solid;
+}
+
+#tres {
+  padding: 1cap;
+  border: 1px black solid;
+}
