@@ -64,6 +64,21 @@ header {
   .item {
     flex-basis: 100%;
   }
+
+  #uno {
+    color: white;
+    background: #4b8f5a;
+  }
+
+  #dos {
+    color: white;
+    background: #2a73b9;
+  }
+
+  #tres {
+    color: white;
+    background: #a67c52;
+  }
 }
 
 /* tablet */
@@ -73,6 +88,21 @@ header {
   }
   .item:last-child {
     flex-basis: 100%;
+  }
+
+  #uno {
+    color: white;
+    background: #4b8f5a;
+  }
+
+  #dos {
+    color: white;
+    background: #2a73b9;
+  }
+
+  #tres {
+    color: white;
+    background: #a67c52;
   }
 }
 
@@ -88,16 +118,8 @@ header {
   text-align: right;
 }
 
-#uno {
-  padding: 1cap;
-  border: 1px black solid;
-}
-
-#dos {
-  padding: 1cap;
-  border: 1px black solid;
-}
-
+#uno,
+#dos,
 #tres {
   padding: 1cap;
   border: 1px black solid;
